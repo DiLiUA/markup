@@ -1,0 +1,37 @@
+#archive-images{
+	width: 99999px;
+}
+#archive-images li{
+	width: 220px;
+	height: 141px;
+	margin:0 22px 20px 0;
+	display: inline-block;
+	list-style-type: none;
+	background-color: #fff;
+}
+#archive-images img{
+	padding: 10px;
+}
+.archive_navi{
+	width:11px;
+	height:22px;
+	float:right;
+	padding-right:20px;
+	margin-top:44px;
+	cursor: pointer;
+}
+.archive_previous{
+	background-image:url(..//images/previous.png);
+	background-repeat:no-repeat;
+}
+.archive_next{
+	background-image:url(..//images/next.png);
+	background-repeat:no-repeat;
+}
+.archive_navi a{
+	padding:5px 11px 6px 11px;
+}
+#main-slider{
+	width: 100%;
+	overflow: hidden;
+}

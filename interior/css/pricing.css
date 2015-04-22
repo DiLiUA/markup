@@ -1,0 +1,43 @@
+.price-list{
+	width: 100%;
+}
+.price-list li{
+	position: relative;
+	list-style-type: none;
+	display: inline-block;
+	margin-bottom: 50px;
+	float:none;
+	width: 300px;
+	/*height: 300px;*/
+
+}
+#bg > #box1{
+	padding: 50px 50px 0 50px;
+}
+h2{
+	padding: 0 0 0 20px;
+}
+.price-list img{
+	width: 100%;
+}
+.none{
+	display: none;
+}
+.modalWindow{
+	overflow: hidden;
+}
+.modalWindow img{
+	margin: 0 25px 20px 0;
+	width: 100%;
+}
+.price{
+	font-size:35px;
+}
+.btnPosition{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.price_padding{
+	padding-top:87px;
+}
