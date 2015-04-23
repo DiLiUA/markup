@@ -30,31 +30,34 @@
 		<div id="content">
 			<div id="bg">
 				<div id="box1">
-					<div id="form">
-						<h2>Contact Form</h2>
-						<form name="Contacts">
-						<p class="formpadding">
-							<label for="check1" class="lable_width">Name:</label>
-							<input id="check1" type="text" size="69">
-						</p>
-						<p class="formpadding">
-							<label for="check2" class="lable_width">Email:</label>
-							<input id="check2" type="text" size="69">
-						</p>
-						<p class="formpadding">
-							<label for="check3" class="lable_width">Phone:</label>
-							<input id="check3" type="text" size="69">
-						</p>
-						<p class="formpadding">
-							<label for="check4" class="lable_width">Maessage:</label>
-							<textarea id="check4"></textarea>
-						</pclass>
-						<p class="formclick">
-							<input type="submit" value="SEND" class="click">
-						</p>
-						<p class="formclick">
-							<input type="reset" value="CLEAR" class="click">
-						</p>
+					<div class="form_box">
+						<form  action="#" method="post" name="Contacts" class="rf">
+							<p class="formpadding">
+								<label for="user_name" class="lable_width">Name:</label>
+								<input id="user_name" type="text" class="rfield" size="69">
+								<p id="validName"></p>
+							</p>
+							<p class="formpadding">
+								<label for="user_email" class="lable_width">Email:</label>
+								<input id="user_email" type="text" class="rfield" size="69">
+								<p id="valid">Неверно указан e-mail. Один из вариантов правильного e-mail: author@mail.com</p>
+							</p>
+							<p class="formpadding">
+								<label for="user_phone" class="lable_width">Phone:</label>
+								<input id="user_phone" type="text" class="rfield" size="69">
+								<p id="validPhone">'Неверно указан номер телефона. Необходима запись в формате +XXXXXXXXXXXX, где X - номер вашего телефона'</p>
+							</p>
+							<p class="formpadding">
+								<label for="user_message" class="lable_width">Message:</label>
+								<textarea id="user_message" class="rfield"></textarea>
+								<p id="validMessage"></p>
+							</p>
+							<p class="formclick">
+								<input type="submit" disabled value="SEND" class="click btn_submit disabled">
+							</p>
+							<p class="formclick">
+								<input type="reset" value="CLEAR" class="click">
+							</p>
 						</form>
 					</div>
 				</div>
@@ -105,5 +108,7 @@
 			</div>
 		</div>
 	</div>
+	<script src="js/jquery-2.1.3.min.js"></script>
+	<script src="js/contacts_validation_form.js"></script>
 </body>
 </html>
