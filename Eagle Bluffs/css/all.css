@@ -1,0 +1,95 @@
+body, ul{
+	margin:0;
+	padding:0;
+	font-size:12px;
+    font-family:Georgia;
+    font-weight:normal;
+	color:3a230d;
+}
+#wrapper{
+	width:801px;
+	background-color:000000;
+	margin:0 auto;
+	overflow:auto;
+	position:relative;
+}
+#header{
+	height:287px;
+	background-image:url(..//images/header.jpg);
+	margin-bottom:42px;
+}
+#nav{
+	height:98px;
+	background-image:url(..//images/background_nav.png);
+	background-repeat:repeat-x;
+	position:relative;
+	top:21px;
+}
+li{
+	float:right;
+	overflow:hidden;
+	margin-top:45px;
+	border-top:2px black;
+}
+a{
+	color:black;
+	margin:0;
+	padding:0 13px;
+	text-decoration:none;
+}
+a:visited{
+	color:green;
+}
+a:active{
+	color:blue;
+}
+a:hover{
+	color:red;
+}
+#nav li a {
+	border-right: 1px solid #000;
+}
+#nav li .last {
+	border-right: none;
+}
+.logo{
+	position:relative;
+	top:-73px;
+	margin:0 0 0 19px;
+	float:left;
+}
+#content{
+	margin-bottom:6px;
+}
+#text{
+	column-count: 2; /*количество колонок, на которое хотим разбить текст*/
+	-moz-column-count: 2; /*для мозилы*/
+	-webkit-column-count: 2; /*для webkit браузеров*/
+	column-gap: 10px; /*отступ между колонками*/
+	-moz-column-gap: 10px;
+	-webkit-column-gap: 10px;
+	margin-bottom: 12px;
+}
+h1{
+	font-size:42px;
+	font-weight:normal;
+	margin:0px 0px 27px 10px;
+}
+#content p{
+	width:361px;
+	margin:0px 0px 0px 0px;
+	padding:0 0 19px 13px;
+	line-height:1.5;
+}
+#footer{
+	width:801px;
+	height:26px;
+	background:#000000;
+}
+#footer p{
+	font-size:11px;
+	color:#fff;
+	margin:0;
+	padding:6px 11px 0 0;
+	float:right;
+}
