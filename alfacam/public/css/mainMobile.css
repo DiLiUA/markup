@@ -1,0 +1,234 @@
+@media screen and (max-width: 1280px) {
+	#content .jcarousel-next {
+		right: -50px;
+	}
+	#content .jcarousel-prev {
+		left: -50px;
+	}
+	#content .slider-forward {
+		bottom: 205px 
+	}
+	#content .slider-backward {
+		bottom: 205px;
+	}
+	#goods-slider {
+		width: 100%;
+		max-width: 800px;
+	}
+	#content .thumbs UL LI {
+		width: 190px;
+	}
+	#content .thumbs UL LI img {
+	    width: 100%;
+	}
+	#content .thumbs {
+		display: block;
+		width: 53%;
+		float: none;
+		margin: 20px auto 0;
+	}
+	#content .directory .thumbs UL LI {
+		width: 600px;
+	}
+	#content .directory .border {
+		margin: auto;
+	}
+}
+@media screen and (max-width: 1200px) {
+	#content H3.note {
+		padding: 0 5%;
+		text-align: center;
+	}
+	#content .directory .thumbs UL LI {
+	    width: 495px;
+	}
+	#content .directory .border {
+		width: 413px;
+	}
+	#content .announcements UL LI, #content .directory .border {
+		width: 333px;
+	}
+}
+@media screen and (max-width: 959px) {
+	#content {
+	    margin: 0 0 20vw 0;
+	}
+	#content .thumbs UL LI {
+	    width: 116px;
+	}
+	#content .slider-btn {
+		display: none;
+	}
+	#content .scroll-img .goods-list .goods-item {
+		float: none;
+		width: 100%;
+		max-width: 100%;
+		margin-bottom: 8.83vw;
+	}
+	#content #goods-slider .border {
+		width: 100%;
+		margin: 0;
+		min-height: 26vw;
+		padding: 1.26vw 0 6.3vw 0;
+	}
+	#goods-slider {
+		width: 100%;
+		max-width: 100%;
+	}
+	#content .scroll-img .goods-list {
+		width: 100%;
+	}
+	#content .slider {
+		min-width: 0.1vw;
+		padding: 0 1vw;
+	}
+	#content .jcarousel-next, #content .jcarousel-prev {
+		background-size: 100% 100%;
+		width: 25px;
+		height: 33px;
+	}
+	#content H3.note {
+		margin: 1.4vw 0 7vw;
+		font-size: 2.5vw;
+		letter-spacing: 0;
+	}
+	#content .info{  
+		margin: 0 auto 0.55vw;
+		padding: 0 0 1.1vw
+	}
+	#content H1, #content H2, #content H3, #content H4, #content H5, #content H6 {
+		margin: 1.65vw 0 0 0;
+	}
+	#content H2 {
+		font-size: 4vw;
+	}
+	#content .text-box P, #content .info P {
+		font-size: 2.3vw;
+		letter-spacing: 0
+	}
+	#content .conditions {
+		margin: 1.1vw;
+ 	}
+	#content .conditions LI:before {
+		content: '';
+		width: 39.8%;
+		background-size: 1300%;
+	}
+	#content .conditions LI.test-drive:before {
+		background-position: 2% 70%;
+	}
+	#content .conditions LI.free-delivery:before {
+		background-position: 34.25% 70%;
+	}
+	#content .conditions LI.guarantee:before {
+		background-position: 66% 70%;
+	}
+	#content .conditions LI.certificate:before {
+		background-position: 98% 70%;
+	}
+	#content .conditions LI A {
+		letter-spacing: 0;
+		font-size: 2vw;
+		line-height: 1;
+	}
+	#content .conditions LI {
+		width: 24%;
+	}
+	#content .conditions LI span {
+		display: block;
+		margin: 1.4vw 0 0;
+	}
+	#content .text-box {
+		margin: 7vw 0 0 0;
+	}
+	#content .rating-box .rating .first-item {
+		padding: 1.8vw 1vw 0 0;
+	}
+	#content .rating-box .rating LI {
+		font-size: 1.94vw;
+		padding-top: 1.39vw;
+	}
+	#content #goods-slider .goods-list {
+		margin-top: 5.57vw;
+	}
+	#content #goods-slider img.alignleft {
+		margin: 0.7vw 3.47vw 0 2.36vw;
+		width: 20.86vw;
+	}
+	#content .rating-box {
+		float: left;
+		margin: 0 0.69vw 0 0;
+	}
+	#content .rating-box .rating {
+		line-height: 2.92vw;
+	}
+	#content .rating-box .rating LI IMG {
+		width: 2.92vw;
+	}
+	#content #goods-slider A.name {
+		font-size: 4.59vw;
+		margin-bottom: 0.69vw;
+		padding-right: 4vw;
+	}
+	#content .help-bg {
+		top: -16.3vw;
+		left: 21vw;
+		width: 36.14vw;
+		padding: 0.6vw;
+		border: 1px solid #848667;
+		border-radius: 3vw;
+		-o-border-radius: 3vw;
+		-moz-border-radius: 3vw;
+		-webkit-border-radius: 3vw;
+	}
+	#content .help span {
+		left: 1.5vw;
+		bottom: -3.1vw;
+		width: 1.8vw;
+		height: 1.05vw;
+	}
+	#content #goods-slider P {
+		font-size: 1.89vw;
+		margin: 0 0 1.5vw;
+	}
+	#content #goods-slider img.logo {
+		margin: 0.69vw 0 0 0;
+		width: 18.2vw;
+	}
+	#content #goods-slider P {
+		font-size: 2.5vw;
+		letter-spacing: 0.08vw;
+	}
+	#content .box-buy {
+		bottom: 0.5vw;
+		padding: 0;
+	}
+	#content .buy {
+		font-size: 2.46vw;
+		padding-left: 5vw;
+	}
+	#content .buy SPAN {
+		height: 3.9vw;
+		width: 3.9vw;
+		margin: 0 1vw 0 0;
+		border-radius: 2vw;
+		-o-border-radius: 2vw;
+		-moz-border-radius: 2vw;
+		-webkit-border-radius: 2vw;
+		bottom:  0.15vw;
+		right: 9.3vw;
+		background-size: 100% 100%;
+	}
+	#content #goods-slider .price {
+		float: left;
+		color: #066375;
+		font-size: 4.5vw;
+	}
+	#content UL, #content OL {
+		letter-spacing: 0;
+		line-height: 4.59vw;
+	}
+	#content .non {
+		display: none;
+	}
+}

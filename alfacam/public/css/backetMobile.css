@@ -1,0 +1,264 @@
+@media screen and (max-width: 1280px)  {
+	#content.backet-page {
+		padding: 0 10px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	#content .backet-col-1 .backet-goods .box-goods-1 P A {
+		font-size: 18px;
+	}
+	#content .tooltip span {
+		width: 175px;  		
+	}
+	#content .tooltip:hover span {
+		right: 0;
+	}
+	#content .backet-col-1 .backet-goods {
+		margin-left: 0;
+	}
+	#content .backet-col-1 .backet-goods .box-goods-1 .product .name {
+		font-size: 18px;
+	}
+}
+@media screen and (max-width: 959px) {
+	#content.backet-page {
+		padding: 0;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+        margin-bottom: 25%;
+	}
+	#content .backet-col-1 .all-products {
+		max-width: 100%;
+	}
+	#content .backet-col-1 .total-price {
+		max-width: 100%;
+	}
+    #content .box-article {
+        margin-bottom: 5.13%;
+    }
+    #content H2 {
+        font-size: 4.08vw;
+        margin: 0;
+    }
+    #content P {
+        font-size: 1.422vw;
+    }
+    #content UL {
+        font-size: 1.57vw;
+    }
+    #content .box-row {
+        margin-bottom: 14.25%;
+    }
+    #content .backet-col-1 .backet-goods .box-goods-1 .left-col {
+/*        padding-right: 12.86%;*/
+        margin: 0;
+    }
+    #content .backet-col-1 .backet-goods .box-goods-1 .right-col {
+		padding: 2vh 0 0 5.95vw;
+		font-size: 3.5vw;
+    }
+	#content .backet-col-2 .center-box-2 {
+		max-width: 100%;
+	}
+    #content .backet-col-1 .backet-goods .box-goods-1 .rating-box .rating .first-item {
+        line-height: 2.5vw;
+        color: #15697a;
+        padding: 0 0.5vw 0 0;
+    }
+    #content .backet-col-1 .backet-goods .box-goods-1 .rating-box .rating .star-item {
+	  width: 2.5vw;
+	}
+	#content .backet-col-1 .backet-goods .box-goods-1 .rating-box .rating LI IMG {
+	  width: 100%;
+	  height: auto;
+	}
+	#content .backet-col-2 .center-box-2 FORM[action="contact-form"] {
+		width: 100%;
+		max-width: 100%;
+		margin: 0 auto;
+		padding: 0 10px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	#content .backet-col-1 .backet-goods .box-img-goods {
+		width: 14.29%;
+	}
+	#content .backet-col-1 .backet-goods .box-img-goods IMG{
+		width: 100%;
+	}
+	#content .backet-col-1 {
+		float: left;
+		width: 100%;
+        padding: 0 0 0 1.9%;
+        margin-bottom: 7.8%;
+	}
+	#content .backet-col-1 .total-price UL LI {
+		font-size: 4.02vw;
+		  margin-top: 2.5%;
+	}
+	#content .backet-col-1 .total-price UL {
+		padding-right: 6%;
+	}
+	#content .backet-col-2 {
+		float: none;
+		width: 100%;
+	}
+	#content .backet-col-2 .center-box .image-radio label {
+		font-size: 4.5vw;
+	}
+	#content .backet-col-2 .center-box .image-radio input[type=radio]:checked + label.last {
+		background-size: 4vw;
+	}
+	#content .backet-col-2 .center-box .image-radio input[type=radio] + label.last {
+		background-size: 4vw;
+		padding-left: 6vw;
+	}
+	#content P>label {
+		font-size: 5vw;
+	}
+	#content .backet-col-2 .center-box-2 FORM[action="contact-form"] INPUT, #content .backet-col-2 .center-box-2 FORM[action="contact-form"] TEXTAREA {
+		width: 96%;
+		max-width: 100%;
+		height: 7.4vw;
+		font-size: 5vw;
+		padding: 0.28vw 0.7vw;
+	}
+	#content .backet-col-2 .center-box-2 FORM[action="contact-form"] BUTTON {
+		padding: 0.7vw;
+		max-width: 61.49vw;
+		height: 8.78vw;
+		font-size: 4.2vw;
+	}
+	#content .row-2 {
+		max-width: 100%;
+		padding: 0 2.51vw;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	#content .box-payment-cards FORM[action="payment-cards"] LABEL {
+		font-size: 2.79vw;
+		width: 36vw;
+		margin-right: 2.3vw;
+		line-height: 1.5;
+	}
+	#content .helper-destination {
+		margin: 0;
+		text-align: right;
+		padding:0.5vw 9.8vw 0 0;
+		font-size: 1.98vw;
+	}
+	#content .box-payment-cards FORM[action="payment-cards"] INPUT, #content .box-payment-cards FORM[action="payment-cards"] TEXTAREA {
+		max-width: 48vw;
+	}
+	#content .box-payment-cards FORM[action="payment-cards"] LABEL SPAN {
+		font-size: 1.98vw;
+	}
+
+	#content .backet-col-2 .center-box-2 FORM[action="contact-form"] TEXTAREA[name="adress"] {
+		height: 14.1vw;
+	}
+	#content .backet-col-2 .center-box-2 FORM[action="contact-form"] TEXTAREA[name="comment"] {
+		height: 18.8vw;
+	}
+	#content .box-payment-cards FORM[action="payment-cards"] INPUT {
+		max-width: 48vw;
+		height: 5.57vw;
+		font-size: 4.3vw;
+		padding: 0.28vw 0.7vw;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	#content .box-payment-cards FORM[action="payment-cards"] TEXTAREA {
+		height: 9vw;
+	}
+	#content .box-payment-cards FORM[action="payment-cards"] #sum {
+		width: 14.5vw;
+	}
+	#content .backet-col-1 .backet-goods {
+		margin-left: 0;
+        padding-bottom: 4.2%;
+        overflow: hidden;
+	}
+	#content .box-payment-cards FORM[action="payment-cards"] P {
+		font-size: 2.4vw;
+		margin-bottom: 1.5vw;
+	}
+	#content .box-payment-cards .image-radio input[type=radio] + label.cards {
+		width: 16.42vw;
+		height: 5.01vw;
+		background-size: 100% 100%;
+	}
+	#content .box-payment-cards .image-radio input[type=radio] + label.yandex {
+		width: 16.42vw;
+		height: 5.01vw;
+		background-size: 100% 100%;
+	}
+	#content .box-payment-cards FORM[action="payment-cards"] .pay-btn {
+		width: 20vw;
+		height: 6.12vw;
+		padding: 0.7vw;
+		border-radius: 0.6vw;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		font-size: 3vw;
+		background-size: 100% 100%;
+		margin: 2.78vw 0 0 37.3vw;
+	}
+	#content .box-payment-cards FORM[action="payment-cards"] .pay-btn:hover {
+		background-size: 100% 100%;
+	}
+
+	#content .box-article P{
+		display: none;
+	}
+	#content .backet-col-1 .backet-goods .box-goods-1 .product .name {
+		font-size: 3.5vw;
+	}
+	#content .backet-col-1 .backet-goods .box-goods-1 .logo {
+		width: 13.64vw;
+		margin-top: 0.38vw;
+	}
+	#content .backet-col-2 .center-box {
+		max-width: 100%;
+		padding: 0 11.27vw;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	#content .backet-col-2 .center-box H3 {
+		 font-size: 5.2vw;
+		 padding-bottom: 3.5%;
+	}
+	#content .text {
+		margin: 3.27vw
+	}
+	#content .text P {
+		font-size: 3.3vw;
+		letter-spacing: 0;
+	}
+	#content .box-payment-cards {
+		min-height: 100%;
+		padding: 0.7vw;
+		border: 1vw solid #5d5d5d;
+
+	}
+	#content .backet-col-2 .center-box FORM[action="form-checkbox"] {
+		margin-bottom: 5.5%;
+	}
+	#content .tooltip:hover span {
+		right: 17vw;
+		bottom: 5vw;
+	}
+}
+
+@media screen and (max-width: 480px){
+	#content .tooltip:hover span {
+		right: 0vw;
+	}
+}

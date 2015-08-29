@@ -1,0 +1,89 @@
+#content .box-article  {
+	text-align: center;
+	width: 100%;
+	margin-bottom: 25px;
+}
+#content P {
+	letter-spacing: 0;
+	font-size: 13px;
+}
+#content .box-article P{
+	font-size: 14px;
+}
+#content .news {
+	width: 100%;
+	max-width: 845px;
+	margin: 0 auto;
+	margin-bottom: 45px;
+}
+#content .box-news {
+	position: relative;
+	overflow: hidden;
+	line-height: 1.5;
+	max-height: 182px;
+}
+#content .box-news H3 {
+	font-size: 13px;
+	color: #066375;
+	margin: 0 0 20px 0;
+	font-weight: 500;
+}
+#content .box-news .news-img {
+	float: left;
+	margin-right: 20px;
+	width: 237px;
+	height: 182px;
+}
+#content .box-news .news-img IMG {
+	width: 100%;
+}
+#content .box-news .bottom-box {
+	background: url("../images/icons/gradient-border.png") repeat-x left bottom;
+	float: right;
+	width: 69.5%;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding-bottom: 5px;
+}
+#content .box-news .bottom-box H5 {
+	float: left;
+	margin: 0;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: #1d1d1e;
+}
+#content .box-news .bottom-box .read-more {
+	display: block;
+	float: right;
+	text-decoration: underline;
+	font-size: 13px;
+	color: #066375;
+}
+
+#content .pagination UL {
+	text-align: center;
+	border-bottom: 1px solid #1d1d1e;
+	width: 180px;
+	margin: 0 auto;
+	letter-spacing: 0;
+}
+#content .pagination UL LI {
+	list-style-type: none;
+	display: inline-block;
+	letter-spacing: 0;
+}
+#content .pagination UL .first-item A{
+	margin-left: 0; 
+}
+#content .pagination UL .last-item A{
+	margin-right: 0; 
+}
+#content .pagination UL LI A{
+	margin: 0 2px;
+	display: block;
+	font-size: 18px;
+	color: #1d1d1e;
+}

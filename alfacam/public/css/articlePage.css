@@ -1,0 +1,109 @@
+#content.article-page {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-bottom: 128px;
+}
+#content .back-in {
+	overflow: hidden;
+	margin-top: 7px;
+}
+#content .back-in A {
+	display: block;
+	text-decoration: underline;
+	position: relative;
+	padding-left: 15px;
+	color: #1d1d1e;
+	font-size: 13px;
+}
+#content .back-in A:before {
+	position: absolute;
+	top: 2px;
+	left: 3px;
+	content: url(..//images/icons/back_in.png);
+	width: 8px;
+	height: 10px;
+}
+#content H2 {
+	text-align: center;
+	margin: 15px 0;
+}
+#content .left-col {
+	width: 76%;
+	float: left;
+	overflow: hidden;
+	padding: 0 15px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#content .news-img-article {
+	width: 391px;
+	height: auto;
+	margin: 0 18px 15px 0;
+	float: left;
+}
+#content .news-img-article IMG {
+	width: 100%;
+}
+#content.article-page .left-col P {
+	padding-bottom: 15px;
+	text-align: justify;
+}
+#content .left-col .social-network-article {
+	overflow: hidden;
+	float: right;
+}
+#content .left-col .social-network-article LI {
+	list-style-type: none;
+	float: left;
+	margin-right: 7px;
+}
+#content .left-col .social-network-article LI IMG {
+	box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.77);
+	border-radius: 11px;
+	-o-border-radius: 11px;
+	-moz-border-radius: 11px;
+}
+#content .left-col .social-network-article LI IMG:hover {
+	box-shadow: none;
+}
+#content .right-col {
+	float: left;
+	width: 24%;
+	padding-left: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-top: 20px;
+	text-align: center;
+}
+#content .right-col H3 {
+	font-size: 16px;
+}
+#content .right-col .title-sitebar {
+	border-bottom: 2px solid #066375;
+	margin-bottom: 25px;
+}
+#content .right-col .title-sitebar H3{
+	font-weight: bold;
+	color: #066375;
+	position: relative;
+	text-align: center;
+	padding-left: 50px;
+}
+#content .right-col .title-sitebar H3:before {
+	position: absolute;
+	bottom: 0;
+	left: 15px;
+	content: url(..//images/icons/title_sitebar.png);
+	width: 45px;
+	height: 45px;
+}
+#content .right-col .article-title {
+	padding: 0 12%;
+}
+#content .right-col .article-title H3 A{
+	text-decoration: underline;
+}

@@ -1,0 +1,354 @@
+#content.backet-page {
+	max-width: 1200px;
+	margin: 0 auto;
+	margin-bottom: 128px;
+}
+#content .box-article {
+	text-align: center;
+	width: 100%;
+	margin-bottom: 25px;
+	overflow: hidden;
+}
+#content .box-row {
+	margin-bottom: 35px;
+}
+#content .backet-col-1 {
+	float: left;
+	width: 60%;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-bottom: 55PX;
+}
+#content .backet-col-1  .all-products {
+	background: url("../images/icons/gradient-border.png") repeat-x left bottom;
+	margin-left: 20px;
+	width: 100%;
+	max-width: 700px;
+	margin: 0 auto;
+}
+#content .backet-col-1 .backet-goods {
+	overflow: hidden;
+	margin-left: -20px;
+	padding-bottom: 30px;
+}
+#content .backet-col-1 .backet-goods .box-img-goods {
+	float: left;
+}
+#content .backet-col-1 .backet-goods .box-goods-1 {
+	float: right;
+	text-align: right;
+	width: auto;
+}
+#content .backet-col-1 .backet-goods .box-goods-1 P A {
+	font-size: 24px;
+	color: #15697a;
+	text-decoration: underline;
+	text-transform: uppercase;
+	display: block;
+	margin: 5px 0;
+}
+#content .backet-col-1 .backet-goods .box-goods-1 .rating-box {
+	overflow: hidden;
+}
+#content .backet-col-1 .backet-goods .box-goods-1 .rating-box .rating {
+	float: right;
+	overflow: hidden;
+}
+#content .backet-col-1 .backet-goods .box-goods-1 .rating-box .rating LI {
+	float: left;
+	list-style-type: none;
+}
+#content .backet-col-1 .backet-goods .box-goods-1 .rating-box .rating LI IMG {
+	width: 17px;
+}
+#content .backet-col-1 .backet-goods .box-goods-1 .rating-box .rating .first-item {
+	padding: 0 3px 0 0;
+}
+#content .backet-col-1 .total-price {
+	overflow: hidden;
+	text-align: right;
+	width: 100%;
+	max-width: 700px;
+	margin: 0 auto;
+}
+#content .backet-col-1 .total-price UL LI {
+	list-style-type: none;
+	display: inline-block;
+	font-size: 24px;
+	color: #15697a;
+	margin-top: 10px;
+	text-transform: uppercase;
+}
+#content .backet-col-1 .total-price .sum {
+		text-transform: none;
+}
+
+#content .backet-col-1 .backet-goods .box-goods-1 .product {
+	overflow: hidden;
+	text-align: right;
+}
+#content .backet-col-1 .backet-goods .box-goods-1 .left-col {
+	float: left;
+	margin-right: 50px;
+}
+#content .backet-col-1 .backet-goods .box-goods-1 .right-col {
+	float: right;
+	padding-top: 20px;
+	font-size: 24px;
+	color: #15697a;
+}
+#content .backet-col-1 .backet-goods .box-goods-1 .product .name{
+	display: block;
+	font-size: 24px;
+	color: #15697a;
+	text-decoration: underline;
+}
+#content .backet-col-2 {
+	float: left;
+	width: 40%;
+	text-align: left;
+}
+#content .backet-col-2 .center-box {
+	width: 100%;
+	max-width: 300px;
+	margin: 0 auto;
+}
+#content .backet-col-2 .center-box-2 {
+	width: 100%;
+	max-width: 300px;
+	margin: 0 auto;
+}
+#content .backet-col-2 .center-box H3 {
+	font-size: 18px;
+	color: #15697a;
+	padding-bottom: 5px;
+}
+#content .backet-col-2 .center-box .image-radio input[type=radio] {
+	display: none;
+}
+#content .backet-col-2 .center-box .image-radio label {
+	font-size: 16px;
+}
+#content .backet-col-2 .center-box .image-radio input[type=radio] + label.last {
+	background: url('../images/icons/radio_bg.png') no-repeat left;
+	padding-left: 2rem;
+	width: 15px;
+	height: 15px;
+}
+#content .backet-col-2 .center-box .image-radio input[type=radio]:checked + label.last{
+	background: url('../images/icons/radio_bg_active.png') no-repeat left;
+	width: 15px;
+	height: 15px;
+
+}
+#content .backet-col-2 .center-box .image-radio label.last {
+	color: #15697a;
+}
+#content .backet-col-2 .center-box FORM[action="form-checkbox"] {
+	margin-bottom: 20px;
+}
+#content .backet-col-2 .center-box-2 FORM[action="contact-form"] {
+	text-align: right;
+}
+#content .backet-col-2 .center-box-2 FORM[action="contact-form"] INPUT, #content .backet-col-2 .center-box-2 FORM[action="contact-form"] TEXTAREA{
+	width: 96%;
+	max-width: 286px;
+	font-size: 13px;
+	color: #8c8b8b;
+	padding: 2px 5px 2px 5px;
+	margin-bottom: 10px;
+	border: 1px solid #066375;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	 font-family: 'Exo 2', sans-serif;
+}
+#content .backet-col-2 .center-box-2 FORM[action="contact-form"] TEXTAREA[name="comment"] {
+	height: 58px;
+}
+#content .backet-col-2 .center-box-2 FORM[action="contact-form"] BUTTON {
+	display: block;
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #1d1d1e;
+	border: 1px solid #000;
+	padding: 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 27px;
+	width: 100%;
+	max-width: 192px;
+	text-align: center;
+	margin: 0 auto;
+}
+#content .row-2 {
+	width: 100%;
+	max-width: 450px;
+	margin: 0 auto;
+}
+#content .box-payment-cards {
+	overflow: hidden;
+	border: 2px solid #5d5d5d;
+	width: 100%;
+	min-height: 265px;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#content .box-payment-cards FORM[action="payment-cards"] P {
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+#content .box-payment-cards FORM[action="payment-cards"] LABEL {
+	width: 160px;
+	display: inline-block;
+	text-align: right;
+	margin-right: 10px;
+	float: left;
+	font-size: 13px;
+}
+#content .box-payment-cards FORM[action="payment-cards"] LABEL SPAN {
+	display: block;
+	color: gray;
+	font-size: 11px;
+}
+#content .box-payment-cards FORM[action="payment-cards"] INPUT, #content .box-payment-cards FORM[action="payment-cards"] TEXTAREA{
+	width: 100%;
+	height: 27px;
+	max-width: 255px;
+	font-size: 13px;
+	color: #8c8b8b;
+	padding: 2px 5px 2px 5px;
+	border: 1px solid gray;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	 font-family: 'Exo 2', sans-serif;
+}
+#content .box-payment-cards FORM[action="payment-cards"] TEXTAREA {
+	height: 45px;
+}
+#content .helper-destination {
+	display: block;
+	color: gray;
+	font-size: 11px;
+	padding: 0;
+	margin-left: 170px;
+}
+#content .box-payment-cards FORM[action="payment-cards"] #sum {
+	width: 75px;
+}
+#content .box-payment-cards .image-radio {
+	overflow: hidden;
+}
+#content .box-payment-cards .image-radio input[type=radio] {
+	display: none;
+}
+#content .box-payment-cards .image-radio input[type=radio] + label.cards {
+	background: url('../images/icons/visa_mastercard.jpg') no-repeat left;
+	padding-left: 2rem;
+	width: 84px;
+	height: 26px;
+	opacity: 0.5;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+#content .box-payment-cards .image-radio input[type=radio] + label.yandex {
+	background: url('../images/icons/yandex_money.jpg') no-repeat left;
+	width: 84px;
+	height: 26px;
+	opacity: 0.5;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+#content .box-payment-cards .image-radio input[type=radio]:checked + label.yandex, #content .box-payment-cards .image-radio input[type=radio]:checked + label.cards {
+	opacity: 1;
+}
+#content .box-payment-cards .image-radio input[type=radio] label{
+	width: auto;
+	padding: 0;
+	margin: 0;
+	font-size: 13px;
+	font-family: 'Exo 2', sans-serif;
+}
+#content .box-payment-cards FORM[action="payment-cards"] .pay-btn {
+	display: block;
+	/*background: #f16926;*/
+	background: url("../images/bg/buy_btn_bg.jpg") repeat-x;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: bold;
+	border: none;
+	border-radius: 3px;
+	width: 103px;
+	height: 33px;
+	padding: 5px;
+	margin: 20px 0 0 170px;
+}
+#content .box-payment-cards FORM[action="payment-cards"] .pay-btn:hover {
+	background: url("../images/bg/buy_btn_bg_hover.jpg") repeat-x;
+}
+#content .row-2 .text{
+	margin: 15px 0;
+	width: 100%;
+	text-align: center;
+}
+#content .row-2 .uppercase{
+	text-transform: uppercase;
+}
+#content .row-2 .text-color{
+	color: #ff0000;
+}
+
+/*FOR TOOLTIP*/
+#content .tooltip {
+	outline: none;
+	position: relative;
+}
+#content .tooltip LABEL {
+	position: relative;
+}
+#content .tooltip strong {
+	line-height: 30px;
+}
+#content .tooltip:hover {
+	text-decoration: none;
+} 
+#content .tooltip span {
+    z-index: 10;
+    display: none;
+    padding: 10px;
+    width: 195px;
+    line-height: 1.5;
+}
+#content .tooltip:hover span{
+    display: inline;
+    position: absolute;
+    color: #1d1d1e;
+    border: 1px solid #848667;
+    background-color: #f7fcc1;
+	bottom: 20px;
+	font-size: 10px;
+}
+#content .callout {
+	z-index: 20;
+	position: absolute;
+	bottom: -8px;
+	left: 0;
+	border: 0;
+}
+/*CSS3 extras*/
+#content .tooltip span{
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px #CCC;
+}
+
+
+
+

@@ -1,0 +1,114 @@
+@media screen and (max-width: 1280px) {
+	#content.about-us-page {
+		padding: 0 10px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	#content .left-col {
+		padding: 0 10px 0 0;
+	}
+	#content H2 {
+		font-size: 16px;
+	}
+	#content .right-col .title-sitebar H3{
+		font-size: 15px;
+	}
+}
+@media screen and (max-width: 1120px) {
+	#content .left-col .box-frame .iframe .map {
+	max-width: 298px;
+	max-height: 237px;
+	margin-top: 25px;
+}
+}
+@media screen and (max-width: 959px) {
+    #content.about-us-page {
+        margin-bottom: 25%;
+        padding: 0;
+    }
+    #content .box-article {
+        margin-bottom: 3%;
+    }
+    #content H2 {
+        font-size: 4.08vw;
+        margin: 0;
+    }
+    #content .box-article-description {
+        display: none;
+    }
+	#content .left-col {
+		float: none;
+		width: 100%;
+        padding: 0 2.8%;
+	}
+    #content P {
+        font-size: 3.71vw;
+        padding-bottom: 6%;
+    }
+    #content .left-col .box-frame {
+        margin-top: 14%;
+    }
+    #content .left-col .box-frame H3 {
+        font-size: 4.08vw;
+        margin: 0 0 5%;
+    }
+	#content .right-col {
+		float: none;
+		width: 100%;
+		padding: 0 10px;
+		display: none;
+	}
+	#content .left-col .box-frame .iframe {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+    #content .left-col .box-frame .iframe .map {
+        margin: 0 auto;
+        max-width: 100%;
+        max-height: 100%;
+        margin-bottom: 10%;
+    }
+	#content .left-col .box-frame .box-form {
+		float: left;
+		width: 100%;
+		text-align: center;
+	}
+	#content .left-col .box-frame .box-form FORM {
+		margin: 0 auto;
+	}
+	#content .left-col .box-frame .box-form .padding-style {
+		padding-left: 0;
+        max-width: 100%;
+        margin-bottom: 13.5%;
+        text-align: left;
+	}
+    #content .left-col .box-frame .box-form FORM INPUT, #content .left-col .box-frame .box-form FORM TEXTAREA {
+        width: 100%;
+        max-width: 100%;
+        font-size: 5vw;
+        padding: 1.5% 4.5%;
+        margin-bottom: 4%;
+    }
+    #content .left-col .box-frame .box-form FORM .add-file {
+        margin-bottom: 7.5%;
+        text-align: left;
+        font-size: 5.18vw;
+    }
+    #content .left-col .box-frame .box-form FORM BUTTON {
+        max-width: 100%;
+        font-size: 5.18vw;
+        padding: 2% 4.5%;
+        width: auto;
+        height: auto;
+        background-size: 100% 100%;
+    }
+    #content .left-col .box-frame .box-form .padding-style ADRESS {
+        margin-top: 7%;
+    }
+    #content .left-col .box-frame .box-form .padding-style ADRESS A {
+        font-weight: 500;
+        font-size: 5vw;
+    }
+}
